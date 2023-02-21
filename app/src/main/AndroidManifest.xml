@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:name=".defrfr.BaBaBaClass"
+        android:usesCleartextTraffic="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InfinityGriffin"
+        tools:targetApi="31">
+        <activity
+            android:name=".vggtgtgt.VeeevvbbbbActivity2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".gtnjgtnjtgngt.GaaaamemmeActivity2"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".nhmkmkyhumkyh.Soorrro2Activity2"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".rjiogtjigtjigt.Sorrrr1Activity2"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".gtnjgtnjtgngt.MainActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="myapp" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_idfrgtgtggtgtt" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/gtgthhugt" />
+    </application>
+
+</manifest>
